@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B55187D41984FE35000747C8 /* PXClaculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = B55187D31984FE35000747C8 /* PXClaculatorBrain.m */; };
 		B572D2BE1984E6F300E88BEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B572D2BD1984E6F300E88BEF /* Foundation.framework */; };
 		B572D2C01984E6F300E88BEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B572D2BF1984E6F300E88BEF /* CoreGraphics.framework */; };
 		B572D2C21984E6F300E88BEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B572D2C11984E6F300E88BEF /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B55187D21984FE35000747C8 /* PXClaculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXClaculatorBrain.h; sourceTree = "<group>"; };
+		B55187D31984FE35000747C8 /* PXClaculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXClaculatorBrain.m; sourceTree = "<group>"; };
 		B572D2BA1984E6F300E88BEF /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B572D2BD1984E6F300E88BEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B572D2BF1984E6F300E88BEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				B572D2D31984E6F300E88BEF /* PXViewController.m */,
 				B572D2D51984E6F300E88BEF /* Images.xcassets */,
 				B572D2C41984E6F300E88BEF /* Supporting Files */,
+				B55187D21984FE35000747C8 /* PXClaculatorBrain.h */,
+				B55187D31984FE35000747C8 /* PXClaculatorBrain.m */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B55187D41984FE35000747C8 /* PXClaculatorBrain.m in Sources */,
 				B572D2D41984E6F300E88BEF /* PXViewController.m in Sources */,
 				B572D2CE1984E6F300E88BEF /* PXAppDelegate.m in Sources */,
 				B572D2CA1984E6F300E88BEF /* main.m in Sources */,
@@ -380,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calculator/Calculator-Prefix.pch";
 				INFOPLIST_FILE = "Calculator/Calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calculator/Calculator-Prefix.pch";
 				INFOPLIST_FILE = "Calculator/Calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +465,7 @@
 				B572D2EE1984E6F300E88BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B572D2EF1984E6F300E88BEF /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +474,7 @@
 				B572D2F11984E6F300E88BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
